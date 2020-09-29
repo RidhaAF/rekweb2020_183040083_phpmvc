@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 28, 2020 at 06:00 PM
+-- Generation Time: Sep 29, 2020 at 10:19 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -41,7 +41,9 @@ CREATE TABLE `mahasiswa` (
 
 INSERT INTO `mahasiswa` (`id`, `nama`, `nrp`, `email`, `jurusan`) VALUES
 (1, 'Ridha Ahmad Firdaus', '183040083', 'ridhaaf@gmail.com', 'Teknik Informatika'),
-(2, 'Ahmad Firdaus', '183040084', 'af@gmail.com', 'Teknik Informatika');
+(2, 'Ahmad Firdaus', '183040084', 'af@gmail.com', 'Teknik Informatika'),
+(3, 'Firdaus', '183040085', 'f@gmail.com', 'Teknologi Pangan'),
+(4, 'Kang Ibing', '193040001', 'kangibing@gmail.com', 'Teknik Mesin');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +63,7 @@ ALTER TABLE `mahasiswa`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
